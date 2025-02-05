@@ -8,6 +8,10 @@ Certainly! Below is a simple C++17 program using OpenGL to display "Hello World"
    sudo emerge -av media-libs/glfw media-libs/freetype
    ```
 
+   ```bash
+   sudo emerge -av media-libs/glew
+   ```
+
 2. Ensure you have a C++ compiler (like `g++`) and `cmake` installed:
    ```bash
    sudo emerge -av sys-devel/gcc dev-util/cmake
