@@ -1,6 +1,6 @@
 # openGL_random_stuff
 
-Certainly! Below is a simple C++17 program using OpenGL to display "Hello World" in a window. This program is designed to run on Linux (Gentoo) and uses the GLFW library for window management and OpenGL context creation, and the FreeType library for rendering text.
+So you want to become a OpenGL coder? You have come to the right place! Below is a simple C++17 program using OpenGL to display "Hello World" in a window. This program is designed to run on Linux (Gentoo) and uses the GLFW library for window management and OpenGL context creation, and the FreeType library for rendering text.
 
 ### Prerequisites:
 1. Install the necessary dependencies:
