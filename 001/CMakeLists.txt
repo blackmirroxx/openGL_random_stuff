@@ -8,7 +8,7 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 find_package(Freetype REQUIRED)
 
-// manually specify GLEW path 
+# manually specify GLEW path 
 set(GLEW_INCLUDE_DIRS "/usr/include")
 set(GLEW_LIBRARIES "/usr/lib64/libGLEW.so")
 
