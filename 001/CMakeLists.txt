@@ -14,7 +14,7 @@ set(GLEW_LIBRARIES "/usr/lib64/libGLEW.so")
 
 set(GLEW_LIBRARIES "/usr/lib64/libGLEW.so")
 
-add_executable(HelloWorldOpenGL main.cpp)
+add_executable(HelloWorldOpenGL main.cpp shader.cpp)
 
 # Include GLEW headers
 target_include_directories(HelloWorldOpenGL PRIVATE ${GLEW_INCLUDE_DIRS})

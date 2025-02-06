@@ -2,6 +2,7 @@
 #include <glm/glm.hpp>
 #include <GLFW/glfw3.h>
 #include <ft2build.h>
+#include "shader.h"
 #include FT_FREETYPE_H
 
 #include <iostream>
