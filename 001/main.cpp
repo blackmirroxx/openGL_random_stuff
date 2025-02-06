@@ -1,6 +1,7 @@
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>  // For glm::ortho, glm::translate, glm::rotate, etc.
+#include <glm/gtc/type_ptr.hpp>          // For glm::value_ptr
 #include <GLFW/glfw3.h>
 #include <ft2build.h>
 #include "shader.h"
