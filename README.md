@@ -287,3 +287,39 @@ void main()
    ```
 
 This should open a window with "Hello World" rendered using OpenGL. Make sure to adjust the font path in the code if necessary.
+Now the tricky part is to fullfill all the dependencies on your machine, which may be different, depending on your OS setup. 
+The output of the program should be a window with a simple background color (in this case, a light blue-green color) and the text "Hello World" rendered in a greenish color at the bottom-left corner of the window.
+
+### Expected Output:
+1. **Window Appearance**:
+   - The window will be 800x600 pixels in size.
+   - The background color will be a light blue-green (`glClearColor(0.2f, 0.3f, 0.3f, 1.0f)`).
+
+2. **Text Appearance**:
+   - The text "Hello World" will be rendered in a greenish color (`glm::vec3(0.5, 0.8f, 0.2f)`).
+   - The text will be positioned at coordinates `(25.0f, 25.0f)` from the bottom-left corner of the window.
+   - The text will be scaled to a size of `1.0` (you can adjust this to make it larger or smaller).
+
+### Visual Description:
+- The window will look like a simple graphical application with a clean, solid-colored background.
+- The text "Hello World" will appear as a crisp, anti-aliased string of characters in the chosen font (FreeSans in this case).
+- The text will be aligned to the bottom-left corner, and it will be clearly visible against the background.
+
+### Example:
+```
++-------------------------+
+|                         |
+|                         |
+|                         |
+|                         |
+|                         |
+|                         |
+|                         |
+| Hello World             |
++-------------------------+
+```
+
+### Notes:
+- If the font file (`FreeSans.ttf`) is not found or cannot be loaded, the program will print an error message to the console, and the text will not be rendered.
+- If the shaders fail to compile or link, the program will not display anything, and you should check the console for error messages.
+
