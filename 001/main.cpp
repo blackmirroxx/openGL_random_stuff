@@ -64,8 +64,8 @@ int main() {
     }
 
     FT_Face face;
-    if (FT_New_Face(ft, "/usr/share/fonts/truetype/freefont/FreeSans.ttf", 0, &face)) { // freefont not available on Gentoo
-        std::cerr << "ERROR::FREETYPE: Failed to load font" << std::endl;
+    if (FT_New_Face(ft, "/usr/share/fonts/noto/NotoSansCanadianAboriginal-Medium.ttf", 0, &face)) { // freefont not available on Gentoo
+        std::cerr << "ERROR::yourfont: Failed to load font" << std::endl;
         return -1;
     }
 
