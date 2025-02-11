@@ -322,4 +322,5 @@ The output of the program should be a window with a simple background color (in 
 ### Notes:
 - If the font file (`FreeSans.ttf`) is not found or cannot be loaded, the program will print an error message to the console, and the text will not be rendered.
 - If the shaders fail to compile or link, the program will not display anything, and you should check the console for error messages.
+- as a side not, there are several entry points aka main() because, there are several binaries (read library) generated, and cmake will tie everything together as a package 
 
